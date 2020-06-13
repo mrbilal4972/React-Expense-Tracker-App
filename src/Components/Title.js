@@ -4,7 +4,7 @@ import '../App.css';
 function Title() {
 
   return (
-    <h3 className='text-center pt-5'>
+    <h3 className='title text-center pt-5'>
       Expense Tracker
       <hr className='new'/>
     </h3>

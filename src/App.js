@@ -18,7 +18,7 @@ function App() {
 
   return (
     <GProvider value={{mainState: state, setMainState: dispatch}}>
-      <div className='col-lg-4 my-3 main container bg-dark text-light'>
+      <div className='col-lg-3 my-3 main container bg-dark text-light'>
         <Title />
           <Balance />
           <IncomeExpense />
