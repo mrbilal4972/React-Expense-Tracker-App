@@ -5,7 +5,7 @@ import {GlobalContext} from '../App';
 
 function IncomeExpense() {
 
-  const {mainState} = useContext(GlobalContext.Consumer)
+  const {mainState} = useContext(GlobalContext)
 
   return (
     <>

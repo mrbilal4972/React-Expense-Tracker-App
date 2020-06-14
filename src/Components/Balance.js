@@ -2,7 +2,7 @@ import React, {useContext} from 'react';
 import {GlobalContext} from '../App';
 
 function Balance() {
-  const {mainState} = useContext(GlobalContext.Consumer);
+  const {mainState} = useContext(GlobalContext);
   return (
       <div className="mt-4">
       <h6>Your Balance</h6>

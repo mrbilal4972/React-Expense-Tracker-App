@@ -3,7 +3,7 @@ import {GlobalContext} from '../App'
 
 function HistoryList() {
 
-  const {mainState, setMainState} = useContext(GlobalContext.Consumer)
+  const {mainState, setMainState} = useContext(GlobalContext)
 
   return (
     <>

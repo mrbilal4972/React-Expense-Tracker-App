@@ -2,12 +2,11 @@ import React, { useState, useContext } from 'react';
 import {GlobalContext} from '../App';
 
 function AddTranscation() {
-  const {setMainState} = useContext(GlobalContext.Consumer);
+  const {setMainState} = useContext(GlobalContext);
 
     const [val, setVal] = useState({text:'', amount:''});
 
     function inputHandler(e){
-        console.log('inside handler')
         setVal({
             ...val,
             [e.target.name]: e.target.value
